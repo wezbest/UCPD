@@ -3,10 +3,11 @@
 # Install python
 echo ""
 echo "Installing python3.12 & python3.12-venv"
-echo "sudo apt-get install python3.12"
-echo "sudo apt-get install python3.12-venv"
+echo "sudo apt-get install python3.12 -y"
+echo "sudo apt-get install python3.12-venv -y"
 sudo apt-get install python3.12
 sudo apt-get install python3.12-venv
+echo""
 echo "DONE DRINK HER PISS"
 echo "DONE DRINK HER PISS"
 echo ""

@@ -12,6 +12,7 @@ echo "DONE DRINK HER PISS"
 echo ""
 echo "II. Setup venv pussy"
 echo "python3.12 -m venv rape"
+python3.12 -m venv rape
 echo "DONE -RAPE READY"
 echo "DONE -RAPE READY"
 echo "DONE -RAPE READY"
