@@ -7,9 +7,14 @@
 
 ----
 
+1. [What ?](#what-)
+2. [Major notes and stuff here](#major-notes-and-stuff-here)
+
+
 ----
 
 # What ? 
 
 > This is for the cursa works which doing will be stored here and stuff
 
+# Major notes and stuff here
