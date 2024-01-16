@@ -3,20 +3,20 @@
 
 ---
 <h1 align="center"><code> UCPD </code></h1>
-<h2 align="center"><i> Cursa Worka </i></h2>
+<h2 align="center"><i> Rust Learning </i></h2>
 
 ----
 
 1. [What ?](#what-)
-2. [Major notes and stuff here](#major-notes-and-stuff-here)
+2. [Course Link](#course-link)
 
 
 ----
 
 # What ? 
 
-> This is for the cursa works which doing will be stored here and stuff
+> This branch is for learning rust and learning new things.
 
-# Major notes and stuff here
+# Course Link
 
-1. Part of the starting part is being done in kaggle linked to this under name - UTCPD, If it is too big, you wil name it UTCPDXX
+[Repo](https://github.com/CleanCut/ultimate_rust_crash_course/#exercises)
