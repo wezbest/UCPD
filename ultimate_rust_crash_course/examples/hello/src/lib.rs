@@ -3,6 +3,6 @@ pub mod spanish;
 
 pub mod english {
     pub fn greet() {
-        println!("Lick Her");
+        println!("Lick Her fart");
     }
 }
