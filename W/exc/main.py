@@ -9,4 +9,4 @@ Main python file which will call other functons
 # e.ex68()
 
 from filez import ex72 as e
-e.ex72()
+e.e72()
