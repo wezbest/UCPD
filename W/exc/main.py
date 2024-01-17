@@ -8,5 +8,5 @@ Main python file which will call other functons
 # import ex68 as e
 # e.ex68()
 
-from 
-e.e72()
+from filez import ex72 as e
+e.ex72()
