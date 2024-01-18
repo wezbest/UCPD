@@ -38,7 +38,7 @@ def ex78():
     for row in picture:
         for col in row:
             if col == 1:
-                rprint("*", end="")
+                rprint([green]"*", end="")
             else:
                 rprint(" ", end="")
         rprint()
