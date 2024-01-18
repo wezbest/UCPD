@@ -30,7 +30,11 @@ def ex78():
       [0,0,0,1,0,0,0],
       [0,0,0,1,0,0,0]
     ]
-    
+    '''
+    Here the picture is atually composed of many lists
+    and you will search it as row and lists and add the end"" 
+    to print the picture
+    '''
     for row in picture:
         for col in row:
             if col == 1:
