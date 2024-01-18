@@ -19,11 +19,11 @@ def ex78():
     """_summary_
     Function for the excercise which will be called in main
     """
-
+    rprint(Panel('Excercise 78 - using neste4d for loops for printing image', title="My Exc"))
     # Where there is 1 replace it with * and where there is 0 replace it with space
 
     picture = [
-      [0,0,0,1,0,0,0],
+      [0,0,0,1,0,0,0], # Each one of this is s row
       [0,0,1,1,1,0,0],
       [0,1,1,1,1,1,0],
       [1,1,1,1,1,1,1],
@@ -35,10 +35,17 @@ def ex78():
     and you will search it as row and lists and add the end"" 
     to print the picture
     '''
-    for row in picture:
-        for col in row:
+    fill = '*'
+    empty = '_'
+    i = 0 
+    while True :
+      for row in picture: # reading it line by line row 
+        for col in row: # then search through each column
             if col == 1:
-                rprint("[green]*[/green]", end="")
+                rprint(f"[green]{fill}[/green]", end="")
             else:
-                rprint("[red] ", end="")
+                rprint(f"[red]{empty} ", end="")
         rprint()
+      i +=1
+      if i>=2:
+        break
