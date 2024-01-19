@@ -24,3 +24,4 @@ def e90():
             if i % 2 == 0:
                 evens.append(i)
         return max(evens)
+    rprint(highest_even([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
