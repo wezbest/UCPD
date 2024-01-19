@@ -40,10 +40,17 @@ def ex85():
     print(bann1)
     age = Prompt.ask("What is your age? Faggot ? :")
     def checkDriverAge(age) :
+        """
+        Sucking and fucking
+        Args:
+            age (_type_): _description_
+        """
         if int(age) < 18:
             print("Sorry, you are too young to drive. Powering off")
         elif int(age) > 18:
             print("Powering On. Enjoy the ride!")
         else:
             print("Congratulations on your first year of driving. Enjoy!")
+        
     checkDriverAge(age)
+    rprint(checkDriverAge.__doc__)
