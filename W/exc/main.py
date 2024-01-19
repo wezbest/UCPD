@@ -9,7 +9,7 @@ Main python file which will call other functons
 # e.ex68()
 # from filez import ex72 as e
 # e.e72()
-# import filez.ex78 as e
-# e.ex78()
-import filez.ex80 as e
-e.ex80()
+import filez.ex78 as e
+e.ex78()
+# import filez.ex80 as e
+# e.ex80()
