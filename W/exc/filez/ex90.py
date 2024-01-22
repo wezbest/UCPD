@@ -27,5 +27,4 @@ def e90():
                 evens.append(i)
         return max(evens)
     rprint(Panel('Excercise 90 - Find the highest even number in a list', title="My Exc"))
-
     rprint(highest_even([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]))
