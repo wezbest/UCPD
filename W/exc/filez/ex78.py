@@ -15,6 +15,7 @@ console = Console()
 
 # Write main function here which will be imported
 
+
 def ex78():
     """_summary_
     Function for the excercise which will be called in main
@@ -23,12 +24,12 @@ def ex78():
     # Where there is 1 replace it with * and where there is 0 replace it with space
 
     picture = [
-      [0,0,0,1,0,0,0], # Each one of this is s row
-      [0,0,1,1,1,0,0],
-      [0,1,1,1,1,1,0],
-      [1,1,1,1,1,1,1],
-      [0,0,0,1,0,0,0],
-      [0,0,0,1,0,0,0]
+        [0, 0, 0, 1, 0, 0, 0],  # Each one of this is s row
+        [0, 0, 1, 1, 1, 0, 0],
+        [0, 1, 1, 1, 1, 1, 0],
+        [1, 1, 1, 1, 1, 1, 1],
+        [0, 0, 0, 1, 0, 0, 0],
+        [0, 0, 0, 1, 0, 0, 0]
     ]
     '''
     Here the picture is atually composed of many lists
@@ -37,15 +38,15 @@ def ex78():
     '''
     fill = '*'
     empty = '_'
-    i = 0 
-    while True :
-      for row in picture: # reading it line by line row 
-        for col in row: # then search through each column
-            if col == 1:
-                rprint(f"[green]{fill}[/green]", end="")
-            else:
-                rprint(f"[red]{empty} ", end="")
-        rprint()
-      i +=1
-      if i>=2:
-        break
+    i = 0
+    while True:
+        for row in picture:  # reading it line by line row
+            for col in row:  # then search through each column
+                if col == 1:
+                    rprint(f"[green]{fill}[/green]", end="")
+                else:
+                    rprint(f"[red]{empty} ", end="")
+            rprint()
+        i += 1
+        if i >= 2:
+            break

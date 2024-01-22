@@ -4,7 +4,7 @@
 Ex68 - from UTCPC
 '''
 
-# Beautifcation 
+# Beautifcation
 # Adding these for rich input
 from rich import print as rprint
 from rich.pretty import pprint
@@ -16,11 +16,12 @@ from rich import box
 from rich.prompt import Prompt
 console = Console()
 
+
 def ex68():
     """
     Excercise 68 as a funbction
     """
-# Actual Solution 
+# Actual Solution
     is_magician = True
     is_expert = True
 
@@ -61,24 +62,25 @@ def ex68():
         """)
         rprint("You need magic powers")
 
-
-    # Alternative method 
-    is_m1 = Prompt.ask("R U bastard Magician? :", default=("N"), choices=['Y', 'N'])
-    is_e1 = Prompt.ask("R U an Pussy Licking Expert :", default=("N"), choices=['Y', 'N'])
+    # Alternative method
+    is_m1 = Prompt.ask("R U bastard Magician? :",
+                       default=("N"), choices=['Y', 'N'])
+    is_e1 = Prompt.ask("R U an Pussy Licking Expert :",
+                       default=("N"), choices=['Y', 'N'])
 
     is_mag = True
     is_exp = True
 
-    # Writing all the 3 conditions here 
+    # Writing all the 3 conditions here
     console.print(Panel('My Sol'))
     rprint(f"""
            Choices 
            is_m1 = {is_m1}
            is_e1 = {is_e1}
            """)
-    if is_m1=="Y" and is_e1=="Y":
+    if is_m1 == "Y" and is_e1 == "Y":
         console.print("[green]You are a master Faggot magician[/green]")
-    elif is_m1=="Y" and is_e1=="N":
+    elif is_m1 == "Y" and is_e1 == "N":
         console.print("[yellow]At least you're getting there[/yellow]")
-    elif is_m1=="N" and is_e1=="N":
+    elif is_m1 == "N" and is_e1 == "N":
         console.print("[red]You need magic powers,DIE BASTARD ![/red]")
