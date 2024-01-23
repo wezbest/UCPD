@@ -1,0 +1,17 @@
+This is the link for the image which is an ansi 
+                          
+┃ SSH 📠                   
+┃ ssh f:Tv2OQSoagn@snips.sh
+┃ URL 🔗                       
+┃ https://snips.sh/f/Tv2OQSoagn
+
+Then you are also going to upload a black and white version of this 
+                                              
+┃ File Uploaded 📤                             
+┃ id: lK9weaYiPJ                               
+┃ size: 2.9 kB • type: xml • visibility: public
+                           
+┃ SSH 📠                   
+┃ ssh f:lK9weaYiPJ@snips.sh
+┃ URL 🔗                       
+┃ https://snips.sh/f/lK9weaYiPJ
