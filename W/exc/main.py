@@ -19,5 +19,7 @@ Main python file which will call other functons
 # e.e90()
 # import filez.ex122 as e
 # e.ex122()
-import filez.pu as pu1
-pu1.run_fetch_snips_pussy()
+# import filez.pu as pu1
+# pu1.run_fetch_snips_pussy()
+import filez.ex132 as e
+e.ex132()
