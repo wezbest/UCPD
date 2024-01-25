@@ -18,6 +18,7 @@ console = Console()  # Standard code to access console
 def ex151():
     """
     Solution for ex 151
+    - Using 
     """
     console.print(
         Panel("""Chapter 151 - Solution - List and Set comprehensions.""", border_style="red"))
@@ -26,8 +27,10 @@ def ex151():
     console.print('\n [blue]Finding duplicates using list comprehension')
     duplicates = [x for x in some_list if some_list.count(x) > 1]
     dumplicates2 = {x for x in some_list if some_list.count(x) > 1}
+    dumplicates3 = list({x for x in some_list if some_list.count(x) > 1})
     rprint(f'Duplicate elements in {some_list} are : ', duplicates)
     rprint(f'Duplicate elements in {some_list} using set comprehension are : ', dumplicates2)
+    rprint(f'Duplicate elements in {some_list} using list comprehension are : ', dumplicates3)
     
 
 
