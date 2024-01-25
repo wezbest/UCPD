@@ -4,6 +4,7 @@ Excercise 146 - Map Reduce filtering
 
 #  Beautifiers
 # ------------------------------------------------------
+from functools import reduce
 from rich import print as rprint  # For rprinting
 from rich.pretty import pprint  # For pretty printing
 from rich import inspect  # For inspect
@@ -45,3 +46,10 @@ def ex146():
         return score > 50
     console.print("\n\n Filter scores",  style="blue")
     rprint(list(filter(filter_func, scores)))
+
+    # 4 Combine all of the numbers that are in a list on this file using reduce (my_numbers and scores).
+    def reduce_func(x, y):
+        rprint(x, y)
+        return x + y
+    console.print("\n\n Reduce numbers",  style="blue")
+    rprint(reduce(reduce_func, my_numbers + scores))
