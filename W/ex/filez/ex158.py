@@ -20,6 +20,15 @@ def ex158():
     """
     console.print(Panel("Excercise 158 - Decorators", border_style="red"))
 
+    m1 = """
+# Excercise Details
+1. Write a decorator that checks if a user is authenticated before running a function.
+> Note you have to set the margin properly or it wont render
+    """
+
+    m1d = Markdown(m1)
+    console.print(m1d)
+
     user1 = {
         'name': 'Sorna',
         # changing this will either run or not run the message_friends function.
