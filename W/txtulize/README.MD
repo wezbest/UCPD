@@ -13,3 +13,8 @@ Demo run
 ```sh
 python -m textual
 ```
+
+Install textual-dev tools
+```sh
+pip install textual-dev
+```
