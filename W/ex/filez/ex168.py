@@ -19,3 +19,9 @@ def ex168():
     Excercise 158 - 
     """
     console.print(Panel("Excercise 168 - Finonacci Numbers", border_style="magenta"))
+
+    # write a function to generate fibonacci sequence 
+    fibo = [0, 1]
+    for i in range(2, 10):
+        fibo.append(fibo[i-1] + fibo[i-2])
+        print(fibo[i])
