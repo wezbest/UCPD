@@ -15,7 +15,7 @@ second = sys.argv[2]
 lq.rprint(f"First: {first}, Second: {second}")
 '''
 
-choices = random.randint(1,5)
+choices = [1, 2, 3]
 randmized_choice = random.choice(choices)
 lq.rprint(f"Random Choice: {randmized_choice}")
 user_input = int(sys.argv[1])
