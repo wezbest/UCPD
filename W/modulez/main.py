@@ -34,3 +34,12 @@ lq.rprint(lq.Panel("Exeute studa/rando.py", box=lq.box.ROUNDED,
 
 # lq.rprint(list(rando.randoz()))
 lq.rprint(list(rando.randoz()))
+
+lq.rprint("Printin random number between 0 to 1 - iteration 10")
+lq.rprint(list(rando.randoz2()))
+
+lq.rprint("Choice - iteration 10")
+lq.rprint(list(rando.rando_choice()))
+
+lq.rprint("Shuffler - iteration 10")
+lq.rprint(rando.rando_shuff())
