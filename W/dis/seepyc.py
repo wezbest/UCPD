@@ -36,4 +36,4 @@ def decompile_pyc_to_py(pyc_path, py_path):
 
 
 # Example usage:
-decompile_pyc_to_py('tmp/f.pyc', 'tmp/fdiassemble.py')
+decompile_pyc_to_py('f.pyc', 'fdiassemble.py')
