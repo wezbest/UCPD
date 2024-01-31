@@ -10,8 +10,8 @@ Testing module system here
 import utility as u
 import bussy.lickk as lq
 import sho.sho as sho
+import studa.rando as rando
 # -------------------------------------------------------
-
 
 # Importing the utility.py in the same folder
 lq.inspect(u)
@@ -28,3 +28,9 @@ lq.rprint(lq.Panel("Importing sho.py from sho", box=lq.box.ROUNDED,
                    expand=False,  border_style="magenta"))
 
 lq.pprint(sho.buyy("Laptop"))
+
+lq.rprint(lq.Panel("Exeute studa/rando.py", box=lq.box.ROUNDED,
+                   expand=False,  border_style="magenta"))
+
+# lq.rprint(list(rando.randoz()))
+lq.rprint(list(rando.randoz()))
