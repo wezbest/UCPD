@@ -11,7 +11,8 @@ import utility as u
 import bussy.lickk as lq
 import sho.sho as sho
 import studa.rando as rando
-# -------------------------------------------------------
+import sys
+# -------------------------------------------------------c
 
 # Importing the utility.py in the same folder
 lq.inspect(u)
@@ -43,3 +44,5 @@ lq.rprint(list(rando.rando_choice()))
 
 lq.rprint("Shuffler - iteration 10")
 lq.rprint(rando.rando_shuff())
+
+# This section is for he sys package
