@@ -24,7 +24,8 @@ while True:
     user_choice = int(input("Enter Number of panty:"))
     if (user_choice == choices_shuffle):
         console.print(Panel(f"""Mistress will fart in your face - 
-        You chose {user_choice} and winner is {choices_shuffle}"""))
+You chose {user_choice} 
+and winner is {choices_shuffle}"""))
         break
     else:
         console.print(f"[red] FUCKED !!! [/red]You Chose {user_choice}")
